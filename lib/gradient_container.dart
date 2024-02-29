@@ -10,8 +10,7 @@ class GredientContainer extends StatelessWidget{
  final Color color1;
  final Color color2;
 
-
-
+ 
   @override
   Widget build(BuildContext context) {
   return Container(
@@ -25,3 +24,17 @@ class GredientContainer extends StatelessWidget{
     );
   }
 }
+
+//   @override
+//   Widget build(BuildContext context) {
+//   return Container(
+//       decoration: BoxDecoration(
+//         gradient: LinearGradient(
+//           colors:[color1,color2])
+//       ),
+//       child:  Center(
+//         child:DiceRoller()
+//         ),
+//     );
+//   }
+// }
